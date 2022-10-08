@@ -20,7 +20,7 @@ exports.lambdaHandler = async (event, context) => {
         response = {
             'statusCode': 200,
             'body': JSON.stringify({
-                message: "hello world",
+                message: "Hello, You are visiting a Serverless Application! - Made by Shantanu Inamdar",
                 // location: ret.data.trim()
             })
         }
